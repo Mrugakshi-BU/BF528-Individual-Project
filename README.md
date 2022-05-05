@@ -51,7 +51,7 @@ qsub scripts/run_cuffdiff.qsub
 ```
 
 ## Step 4
-The `biologist.R` and  `gene_enrichment_analysis.r` scripts contain all of the code needed for the biologist analysis. To run the biologist analysis, from the parent directory of repository, run:
+The `biologist.R` and  `gene_enrichment_analysis.R` scripts contain all of the code needed for the biologist analysis. To run the biologist analysis, from the parent directory of repository, run:
 
 ```
 module load R
@@ -61,5 +61,5 @@ To identify biological pathways from this study that overlap with those fromt th
 
 ```
 module load R
-Rscript scripts/biologist.R
+Rscript scripts/gene_enrichment_analysis.R
 ```
