@@ -8,8 +8,6 @@ This project aims to explore the differences in the transcriptional profiles of 
 
 # Repository Contents
 
-Provide a brief description of each script/code file in this repo, what it does, and how to execute it
-
 ## Programmer Analysis
 The `run_tophat.qsub` script contains all of the code needed for alignment. To submit the TopHat job, from the parent directory of repository, run:
 
