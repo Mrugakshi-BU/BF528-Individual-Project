@@ -48,7 +48,7 @@ module load cufflinks
 qsub scripts/run_cuffdiff.qsub
 ```
 
-## Step 4
+## Biological Analysis
 The `biologist.R` and  `gene_enrichment_analysis.R` scripts contain all of the code needed for the biologist analysis. To run the biologist analysis, from the parent directory of repository, run:
 
 ```
